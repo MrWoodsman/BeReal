@@ -38,6 +38,7 @@ body {
   aspect-ratio: 12/16;
   background: #111;
   border: 2px solid white;
+  filter: FlipH;
 }
 #box .own #camera {
   box-sizing: border-box;
