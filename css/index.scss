@@ -8,10 +8,15 @@ body {
 }
 
 .camera {
-    width: 100%;
+    box-sizing: border-box;
+    width: calc(100vw - 16px);
     background: #333;
-    aspect-ratio: 10/16;
+    aspect-ratio: 1;
+    max-height: calc(100vw - 16px);
     border-radius: 16px;
+    overflow: hidden;
+    margin: 0;
+    border: 1px solid red;
 }
 
 #MakePhoto {

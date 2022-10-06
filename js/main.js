@@ -1,7 +1,7 @@
 var front = false;
 var video = document.querySelector('video');
 // document.getElementById('flipCamera').onclick = function() { front = !front; };
-var constraints = { video: { facingMode: (front? "user" : "environment"), width: 640, height: 480  } };
+var constraints = { video: { facingMode: (front? "user" : "environment"), width: 1, height: 1  } };
 navigator.mediaDevices.getUserMedia(constraints)
 .then(function(mediaStream) {
     video.srcObject = mediaStream;
