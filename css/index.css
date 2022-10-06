@@ -1,0 +1,27 @@
+body {
+  background: #111;
+}
+
+#view {
+  width: 250px;
+  background: red;
+}
+
+.camera {
+  width: 100%;
+  background: #333;
+  aspect-ratio: 10/16;
+  border-radius: 16px;
+}
+
+#MakePhoto {
+  box-sizing: border-boxs;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 32px;
+  width: 75px;
+  aspect-ratio: 1;
+  border: 4px #999 solid;
+  border-radius: 50%;
+}/*# sourceMappingURL=index.css.map */
