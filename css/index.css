@@ -1,24 +1,6 @@
 body {
   background: #111;
-}
-
-#view {
-  width: 250px;
-  background: red;
-}
-
-.camera {
-  box-sizing: border-box;
-  width: calc(100vw - 16px);
-  background: #333;
-  aspect-ratio: 1;
-  max-height: calc(100vw - 16px);
-  border-radius: 16px;
   overflow: hidden;
-  margin: 0;
-  border: 2px solid white;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 #MakePhoto {
@@ -31,4 +13,39 @@ body {
   aspect-ratio: 1;
   border: 4px #999 solid;
   border-radius: 50%;
+}
+
+#box {
+  position: relative;
+  height: calc(100vh - 60px - 75px);
+  display: flex;
+  align-items: center;
+}
+#box .own {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+}
+#box .own #view {
+  left: 12px;
+  top: 12px;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 5;
+  width: 30.7692307692%;
+  aspect-ratio: 12/16;
+  background: #111;
+  border: 2px solid white;
+}
+#box .own .camera {
+  box-sizing: border-box;
+  width: calc(100vw - 16px);
+  background: #333;
+  aspect-ratio: 12/16;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 0;
+  border: 2px solid white;
 }/*# sourceMappingURL=index.css.map */
