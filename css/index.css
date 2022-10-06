@@ -39,7 +39,7 @@ body {
   background: #111;
   border: 2px solid white;
 }
-#box .own .camera {
+#box .own #camera {
   box-sizing: border-box;
   width: calc(100vw - 16px);
   background: #333;
