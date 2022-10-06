@@ -16,7 +16,9 @@ body {
   border-radius: 16px;
   overflow: hidden;
   margin: 0;
-  border: 1px solid red;
+  border: 2px solid white;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #MakePhoto {
